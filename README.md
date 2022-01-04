@@ -27,3 +27,10 @@
   * `r96-dev` 分支代表已经在原有 `r92` 分支上，为了 R96 版本的编译，做了较多改动
   * `r96` 分支代表在原有 `r92` 分支上直接创建了 `r96` 分支，不需改动；或者该项目
     已经在 R96 版本上稳定。
+
+## TODO
+
+1. 迁移每个项目到 `git@gitlab.fydeos.xyz:openfyde/overlays/<project>`
+2. 修改 xml 中每个项目的 `remote="fydeos"` to `remote="openfyde"` 和 `path`
+3. 添加名为 `openfyde` 的 remote, 地址是 `git@gitlab.fydeos.xyz:openfyde/overlays`，
+   这个地址可以被替换为 `https://gitee.com/openfyde`，xml 中其他内容保持不变。
