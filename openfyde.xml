@@ -29,12 +29,12 @@
     <linkfile src="." dest="src/overlays/project-fydemina" />
   </project>
 
-  <project path="openfyde/overlays/project-fydeos"
-    name="fydeos-overlays/project-fydeos"
+  <project path="openfyde/overlays/project-openfyde"
+    name="openfyde/overlays/project-openfyde"
     revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="fydeos">
-    <linkfile src="." dest="src/overlays/project-fydeos" />
+    <linkfile src="." dest="src/overlays/project-openfyde" />
   </project>
 
   <project path="openfyde/overlays/project-fydeos-drivers"
