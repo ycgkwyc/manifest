@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="fydeos"
+    fetch="ssh://git@gitlab.fydeos.xyz" />
+  <remote name="openfyde"
+    fetch="https://gitee.com" />
+
+  <project path="openfyde/overlays/overlay-amd64-openfyde"
+    name="openfyde/overlays/overlay-amd64-openfyde"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/overlay-amd64-openfyde" />
+  </project>
+
+  <project path="openfyde/overlays/arch-amd64"
+    name="fydeos-overlays/arch-amd64"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/arch-amd64" />
+  </project>
+
+  <project path="openfyde/overlays/project-fydemina"
+    name="fydeos-overlays/project-fydemina"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/project-fydemina" />
+  </project>
+
+  <project path="openfyde/overlays/project-fydeos"
+    name="fydeos-overlays/project-fydeos"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/project-fydeos" />
+  </project>
+
+  <project path="openfyde/overlays/project-fydeos-drivers"
+    name="fydeos-overlays/project-fydeos-drivers"
+    revision="refs/heads/r96"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/project-fydeos-drivers" />
+  </project>
+
+  <project path="openfyde/overlays/project-gentoo-pkgs"
+    name="fydeos-overlays/project-gentoo-pkgs"
+    revision="refs/heads/r96"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
+  </project>
+
+  <project path="openfyde/overlays/project-patches"
+    name="fydeos-overlays/project-patches"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/project-patches" />
+  </project>
+
+  <project path="openfyde/overlays/project-ime"
+    name="fydeos-overlays/project-ime"
+    revision="refs/heads/r96"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos">
+    <linkfile src="." dest="src/overlays/project-ime" />
+  </project>
+
+</manifest>
