@@ -22,6 +22,7 @@
 * 包含能够编译出 `amd64-openfyde` R96 版本所需的项目
 * 项目暂时放在内网 gitlab 上。待稳定后，需要放在 gitee 上，并且 `openfyde.xml`
   文件中的 `remote` 地址和各个项目的 `path` 需要修改为 gitee 上的地址。
+  修改后，`openfyde.xml` 中 `remote` 只有 `openfyde`(gitee)，不包含 `fydeos`(gitlab)。
 * 对项目分支名称的说明
   * `r96-dev` 分支代表已经在原有 `r92` 分支上，为了 R96 版本的编译，做了较多改动
   * `r96` 分支代表在原有 `r92` 分支上直接创建了 `r96` 分支，不需改动；或者该项目
