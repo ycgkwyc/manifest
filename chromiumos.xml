@@ -185,7 +185,7 @@
   <extend-project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="6d8f892fa9a854c82e7140a5c035e7973c84d67a" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/novatek-tcon-fw-update-tool" path="src/third_party/novatek-tcon-fw-update-tool" revision="a78b7b0ba128471af835e44dc97698d39fd89bbf" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/poly-updater" path="src/third_party/poly-updater" revision="87ad2edeea039892515f68c948bc2b8f94999553" origRev="refs/heads/release-R96-14268.B" />
-  <extend-project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="2fd20da3c5407d6629db8402d608bb09f7c4a6b9" origRev="refs/heads/release-R96-14268.B" />
+  <extend-project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="release-R96-14268.B-fydeos" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/portage_tool" path="src/third_party/portage_tool" revision="ceeb0e9ff251cf1bdb92358371ec9e5d6d9f751c" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/qemu" path="src/third_party/qemu" revision="fdd76fecdde1ad444ff4deb7f1c4f7e4a1ef97d6" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="b2f37be7c25bc83b76f1b7063a4ef38b824dc4ef" origRev="refs/heads/release-R96-14268.B" />
