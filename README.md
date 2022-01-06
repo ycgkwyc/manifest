@@ -36,3 +36,12 @@
    修改 `name` 只保留项目名称，跟下面的 `remote` 地址拼起来是完整的项目地址。
 3. 添加名为 `openfyde` 的 remote, 地址是 `git@gitlab.fydeos.xyz:openfyde/overlays`，
    这个地址可以被替换为 `https://gitee.com/openfyde`，xml 中其他内容保持不变。
+
+待迁移项目列表
+
+* arch-amd64
+* project-fydemina
+* project-fydeos-drivers
+* project-gentoo-pkgs
+* project-patches
+* project-ime
