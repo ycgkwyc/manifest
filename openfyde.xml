@@ -53,12 +53,12 @@
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
   </project>
 
-  <project path="openfyde/overlays/project-patches"
-    name="project-patches"
+  <project path="openfyde/overlays/project-openfyde-patches"
+    name="project-openfyde-patches"
     revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
-    <linkfile src="." dest="src/overlays/project-patches" />
+    <linkfile src="." dest="src/overlays/project-openfyde-patches" />
   </project>
 
   <project path="openfyde/overlays/project-ime"
