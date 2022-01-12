@@ -37,12 +37,12 @@
     <linkfile src="." dest="src/overlays/project-openfyde" />
   </project>
 
-  <project path="openfyde/overlays/project-fydeos-drivers"
-    name="project-fydeos-drivers"
+  <project path="openfyde/overlays/project-openfyde-drivers"
+    name="project-openfyde-drivers"
     revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
-    <linkfile src="." dest="src/overlays/project-fydeos-drivers" />
+    <linkfile src="." dest="src/overlays/project-openfyde-drivers" />
   </project>
 
   <project path="openfyde/overlays/project-gentoo-pkgs"
