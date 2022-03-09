@@ -7,7 +7,7 @@
   <extend-project name="chromiumos/docs" path="docs" revision="11aa07e81f09d1baec08e2762908e0efbff7d281" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="cab8a95f2961561eb56a95d6f2bfc685686db75a" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/chromite" path="chromite" revision="b227b4f7e3b6327eab6ee9869db1fbe015f914ff" origRev="refs/heads/release-R96-14268.B" />
-  <extend-project name="chromiumos/chromite" path="infra/chromite-HEAD" revision="d20b41342bbe39063fca8e6df4c55a1a1ffb3c25" origRev="refs/heads/main" />
+  <extend-project name="chromiumos/chromite" path="infra/chromite-HEAD" revision="99a133f13384a51f9c96de053019d3d59d3c6706" origRev="refs/heads/main" />
   <extend-project name="chromiumos/infra/proto" path="chromite/infra/proto" revision="54202454da2dc72fa7f94fa3e8631f5d08341f9b" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/infra/proto" path="infra/proto" revision="1c106292e0f5fc8deb4582390afd06271be1a3ce" origRev="refs/heads/main" />
   <extend-project name="chromiumos/infra/autotest-drone" path="infra/autotest-drone" revision="a184ef49ad8b868ea3939ca4965cf43c8118883c" origRev="refs/heads/main" />
@@ -15,7 +15,7 @@
   <extend-project name="chromiumos/infra/go" path="infra/go" revision="6eadc22e734e94376e053926fb56729094b36adc" origRev="refs/heads/main" />
   <extend-project name="chromiumos/infra/lucifer" path="infra/lucifer" revision="309fdc2b23d83e0d2d18ba0468e6ce6d4adffe49" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/infra/recipes" path="infra/recipes" revision="dfcac9c0187cef995dda8eb1cab8dfb71eab6c23" origRev="refs/heads/main" />
-  <extend-project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="f1b646f1d67b82b990b1c4facac73d24d35fad79" origRev="refs/heads/main" />
+  <extend-project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="ca359b5eaa7fdb8f034c92dbc4cad0dd30e79325" origRev="refs/heads/main" />
   <extend-project name="chromiumos/infra/test_analyzer" path="infra/test_analyzer" revision="14119cc21c146544791fe387f64a4b809c4ea789" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/infra/tnull" path="infra/tnull" revision="cd73092111d0cc708e5957759bc75afb702fdd3c" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="6fec9f599bef566fe8f6f6ca6c2102508b664792" origRev="refs/heads/release-R96-14268.B" />
@@ -120,7 +120,7 @@
   <extend-project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="e1e7b0ad8ee99a875b272c8e33e308472e897660" origRev="e1e7b0ad8ee99a875b272c8e33e308472e897660" />
   <extend-project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/chre" path="src/third_party/chre" revision="24c20c96d942a14419a19625b37d8081b9ca23ea" origRev="refs/heads/release-R96-14268.B" />
-  <extend-project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="9c8b7fe1eb82aac85a5a5dc18d1c1456c148b638" origRev="refs/heads/release-R96-14268.B" />
+  <extend-project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="37a364357c02d5159c7d43be5d0f74585110f4ad" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="625f3b99e626a9ca1aea52424c930cd491fc5052" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/coreboot/qc_blobs" path="src/third_party/coreboot/3rdparty/qc_blobs" revision="c72bc4ea8ee09b85d3cc9366b7e12d7d9b821b79" origRev="refs/heads/release-R96-14268.B" />
   <extend-project name="chromiumos/third_party/coreboot/amd_blobs" path="src/third_party/coreboot/3rdparty/amd_blobs" revision="e6d8f3bbac2d5953823ee48944c45685749c694b" origRev="refs/heads/release-R96-14268.B" />
