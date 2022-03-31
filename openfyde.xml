@@ -3,7 +3,22 @@
   <!-- <remote name="openfyde" -->
   <!--   fetch="https://gitee.com/openFyde" /> -->
   <remote name="openfyde"
-    fetch="ssh://git@gitlab.fydeos.xyz/openfyde/overlays" />
+	  fetch="ssh://git@github.com/openFyde" />
+
+  <project path="openfyde/chromium/src"
+	   name="chromium"
+	   revision="refs/heads/r96-dev"
+	   groups="fydeos,chromium"
+	   remote="openfyde">
+  </project>
+
+  <project path="openfyde/dotgclient"
+	   name="dotgclient"
+	   revision="refs/heads/master"
+	   groups="fydeos,chromium"
+	   remote="openfyde">
+    <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />
+  </project>
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
