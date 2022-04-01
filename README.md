@@ -1,7 +1,7 @@
 # manifest
 
 `chromiumos.xml` 包含了 Google 上游 manifest 中各个项目，并且锁定了 commit id。
-其中有若干项目在上游基础上做了修改，已新分支的形式，推到了 openfyde gerrit 上。
+其中有若干项目在上游基础上做了修改，已新分支的形式，推到了 openfyde  上。
 
 <!-- markdownlint-disable line-length -->
 ```xml
@@ -20,6 +20,4 @@
 `openfyde.xml` 里是 openfyde 添加项目。目前的状态：
 
 * 包含能够编译出 `amd64-openfyde` R96 版本所需的项目
-* 项目暂时放在内网 gitlab 上。待稳定后，需要放在 gitee 上，并且 `openfyde.xml`
-  文件中的 `remote` 地址和各个项目的 `path` 需要修改为 gitee 上的地址。
-  修改后，`openfyde.xml` 中 `remote` 只有 `openfyde`(gitee)，不包含 `fydeos`(gitlab)。
+
