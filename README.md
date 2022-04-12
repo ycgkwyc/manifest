@@ -1,7 +1,6 @@
 # manifest
 
-`chromiumos.xml` 包含了 Google 上游 manifest 中各个项目，并且锁定了 commit id。
-其中有若干项目在上游基础上做了修改，已新分支的形式，推到了 openfyde  上。
+openFyde anchors revisions of upstream projects in file `chromiumos.xml`:
 
 <!-- markdownlint-disable line-length -->
 ```xml
@@ -15,9 +14,8 @@
 ```
 <!-- markdownlint-enable line-length -->
 
-按照当前的更新模式，在整个 R96 里程碑版本周期内，`chromiumos.xml` 基本不需改动。
+Basically, `chromiumos.xml` doesn't change in one release life cycle.
 
-`openfyde.xml` 里是 openfyde 添加项目。目前的状态：
-
-* 包含能够编译出 `amd64-openfyde` R96 版本所需的项目
+The `openfyde.xml` contains projects which openFyde owns.
+The projects are necessary for building openFyde for board `amd64-openfyde`.
 
