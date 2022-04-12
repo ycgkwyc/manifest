@@ -3,7 +3,7 @@
   <!-- <remote name="openfyde" -->
   <!--   fetch="https://gitee.com/openFyde" /> -->
   <remote name="openfyde"
-	  fetch="ssh://git@github.com/openFyde" />
+	  fetch="https://github.com/openFyde" />
 
   <project path="openfyde/dotgclient"
 	   name="dotgclient"

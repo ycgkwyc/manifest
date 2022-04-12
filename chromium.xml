@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="openfyde"
-	  fetch="ssh://git@github.com/openFyde" />
+	  fetch="https://github.com/openFyde" />
 
   <project path="openfyde/chromium/src"
 	   name="chromium"
