@@ -5,6 +5,14 @@
   <remote name="openfyde"
 	  fetch="https://github.com/openFyde" />
 
+  <project path="openfyde/extra-overlays"
+    name="extra-overlays"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays"
+    remote="openfyde">
+    <linkfile src="host-overlay" dest="src/private-overlays/chromeos-partner-overlay" />
+  </project>
+
   <project path="openfyde/dotgclient"
 	   name="dotgclient"
 	   revision="refs/heads/master"
