@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="openfyde/overlays/chromium_os-rk3588"
+    name="chromium_os-rk3588"
+    revision="refs/heads/WIP"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
+    <linkfile src="chipset-rk3588" dest="src/overlays/chipset-rk3588" />
+  </project>
+</manifest>
