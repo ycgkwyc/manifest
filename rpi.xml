@@ -3,7 +3,7 @@
   <remote name="rpi_fydeos"
     fetch="https://github.com/FydeOS" />
 
-  <project path="openfyde/chromium_os-raspberry_pi"
+  <project path="openfyde/overlays/chromium_os-raspberry_pi"
     name="chromium_os-raspberry_pi"
     revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
