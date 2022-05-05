@@ -71,7 +71,7 @@
 
   <project path="openfyde/overlays/project-gentoo-pkgs"
     name="project-gentoo-pkgs"
-    revision="refs/heads/r96"
+    revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
