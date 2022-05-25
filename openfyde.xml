@@ -111,10 +111,18 @@
 
   <project path="openfyde/overlays/overlay-inaugural"
     name="overlay-inaugural"
-    revision="refs/heads/WIP"
+    revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-inaugural" />
+  </project>
+
+  <project path="openfyde/overlays/overlay-inaugural-openfyde"
+    name="overlay-inaugural-openfyde"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-inaugural-openfyde" />
   </project>
 
 </manifest>

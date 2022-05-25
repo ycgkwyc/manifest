@@ -2,7 +2,7 @@
 <manifest>
   <project path="openfyde/overlays/chromium_os-rk3588"
     name="chromium_os-rk3588"
-    revision="refs/heads/WIP"
+    revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
