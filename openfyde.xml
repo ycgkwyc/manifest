@@ -39,7 +39,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_apu"
     name="overlay-amd64-openfyde_apu"
-    revision="refs/heads/r96-dev"
+    revision="refs/heads/r102-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_apu" />
