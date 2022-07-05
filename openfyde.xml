@@ -15,7 +15,7 @@
 
   <project path="openfyde/dotgclient"
 	   name="dotgclient"
-	   revision="refs/heads/master"
+	   revision="refs/heads/main"
 	   groups="fydeos,chromium"
 	   remote="openfyde">
     <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />
