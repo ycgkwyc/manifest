@@ -8,4 +8,21 @@
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
     <linkfile src="chipset-rk3588" dest="src/overlays/chipset-rk3588" />
   </project>
+
+  <project path="openfyde/overlays/overlay-firefly_rk3588spc-openfyde"
+    name="overlay-firefly_rk3588spc-openfyde"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-openfyde" />
+  </project>
+
+  <project path="openfyde/overlays/overlay-firefly_itx3588j-openfyde"
+    name="overlay-firefly_itx3588j-openfyde"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openfyde" />
+  </project>
+
 </manifest>
