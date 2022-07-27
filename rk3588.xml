@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="openfyde/overlays/chromium_os-rk3588"
-    name="chromium_os-rk3588"
+  <project path="openfyde/overlays/foundation-rk3588"
+    name="foundation-rk3588"
     revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
