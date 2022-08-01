@@ -101,14 +101,14 @@
     <linkfile src="." dest="src/overlays/project-ime" />
   </project>
 
-  <!-- <project path="openfyde/overlays/overlay-rpi4-openfyde" -->
-  <!--   name="overlay-rpi4-openfyde" -->
-  <!--   revision="refs/heads/r96-dev" -->
-  <!--   groups="fydeos,fydeos_overlays,board" -->
-  <!--   remote="openfyde"> -->
-  <!--   <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde" /> -->
-  <!-- </project> -->
-  <!---->
+  <project path="openfyde/overlays/overlay-rpi4-openfyde"
+    name="overlay-rpi4-openfyde"
+    revision="refs/heads/r102-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde" />
+  </project>
+
   <!-- <project path="openfyde/overlays/overlay-inaugural" -->
   <!--   name="overlay-inaugural" -->
   <!--   revision="refs/heads/r96-dev" -->
