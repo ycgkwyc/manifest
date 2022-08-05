@@ -2,7 +2,7 @@
 <manifest>
   <project path="openfyde/overlays/foundation-rk3588"
     name="foundation-rk3588"
-    revision="refs/heads/r96-dev"
+    revision="refs/heads/r102-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
@@ -11,7 +11,7 @@
 
   <project path="openfyde/overlays/overlay-firefly_rk3588spc-openfyde"
     name="overlay-firefly_rk3588spc-openfyde"
-    revision="refs/heads/r96-dev"
+    revision="refs/heads/r102-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-openfyde" />
@@ -19,7 +19,7 @@
 
   <project path="openfyde/overlays/overlay-firefly_itx3588j-openfyde"
     name="overlay-firefly_itx3588j-openfyde"
-    revision="refs/heads/r96-dev"
+    revision="refs/heads/r102-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openfyde" />
@@ -27,7 +27,7 @@
 
   <project path="openfyde/overlays/overlay-rock5b-openfyde"
     name="overlay-rock5b-openfyde"
-    revision="refs/heads/r96-dev"
+    revision="refs/heads/r102-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
