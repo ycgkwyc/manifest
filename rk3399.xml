@@ -17,4 +17,12 @@
     <linkfile src="." dest="src/overlays/overlay-rockpi4b-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-rs124-openfyde"
+    name="overlay-rs124-openfyde"
+    revision="refs/heads/r96-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rs124-openfyde" />
+  </project>
+
 </manifest>
