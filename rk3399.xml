@@ -17,12 +17,12 @@
     <linkfile src="." dest="src/overlays/overlay-rockpi4b-openfyde" />
   </project>
 
-  <project path="openfyde/overlays/overlay-rs124-openfyde"
-    name="overlay-rs124-openfyde"
+  <project path="openfyde/overlays/overlay-rockpi4cplus-openfyde"
+    name="overlay-rockpi4cplus-openfyde"
     revision="refs/heads/r96-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-rs124-openfyde" />
+    <linkfile src="." dest="src/overlays/overlay-rockpi4cplus-openfyde" />
   </project>
 
 </manifest>
