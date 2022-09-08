@@ -109,4 +109,12 @@
     <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/project-openfyde-fingerprint"
+    name="project-openfyde-fingerprint"
+    revision="refs/heads/r102-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-openfyde-fingerprint" />
+  </project>
+
 </manifest>
