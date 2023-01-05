@@ -5,7 +5,7 @@
 
   <project path="openfyde/extra-overlays"
     name="extra-overlays"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r108-dev"
     groups="fydeos,fydeos_overlays"
     remote="openfyde">
     <linkfile src="host-overlay" dest="src/private-overlays/chromeos-partner-overlay" />
@@ -117,7 +117,7 @@
 
   <project path="openfyde/overlays/project-openfyde-fingerprint"
     name="project-openfyde-fingerprint"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r108-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-fingerprint" />
