@@ -21,7 +21,7 @@
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r108-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/fyde-eclass" />
@@ -85,7 +85,7 @@
 
   <project path="openfyde/overlays/project-gentoo-pkgs"
     name="project-gentoo-pkgs"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r108-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
