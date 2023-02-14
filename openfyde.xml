@@ -123,7 +123,7 @@
     <linkfile src="." dest="src/overlays/project-openfyde-fingerprint" />
   </project>
 
-  <project path="openfyde/overlays/prject-vmware"
+  <project path="openfyde/overlays/project-vmware"
     name="project-vmware"
     revision="refs/heads/r108-dev"
     groups="fydeos,fydeos_overlays,project"
