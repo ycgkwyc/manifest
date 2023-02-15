@@ -27,7 +27,7 @@
 
   <project path="openfyde/overlays/overlay-rock5b-openfyde"
     name="overlay-rock5b-openfyde"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r108-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
