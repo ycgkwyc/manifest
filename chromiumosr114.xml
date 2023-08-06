@@ -54,8 +54,6 @@
 
   <extend-project name="chromiumos/platform/crdyboot" origRev="refs/heads/release-R114-15437.B" path="src/platform/crdyboot" revision="64dee3ec0d27e8d7a2398f0df79b4adb31467030" />
 
-  <extend-project name="chromiumos/platform/croscomp" origRev="refs/heads/release-R114-15437.B" path="src/platform/croscomp" revision="5846298ea42665c2c0b520d468d79d8fedd4a16f" />
-
   <extend-project name="chromiumos/platform/crostestutils" origRev="refs/heads/release-R114-15437.B" path="src/platform/crostestutils" revision="460fcf289bcb28a15753eed9f7b3c6f1234de518" />
 
   <extend-project name="chromiumos/platform/crosvm" origRev="refs/heads/release-R114-15437.B" path="src/platform/crosvm" revision="7a64ea5319fbef01ab3dca858ef82ae376405f79" />
@@ -67,8 +65,6 @@
   <extend-project name="chromiumos/platform/drm-tests" origRev="refs/heads/release-R114-15437.B" path="src/platform/drm-tests" revision="d9a375f02f1c643e0ab3a67fc19db4926afc159b" />
 
   <extend-project name="chromiumos/platform/ec" origRev="refs/heads/release-R114-15437.B-main" path="src/platform/ec" revision="08e85b79b18a89314fcd14ef33ff8bb2cac53e3d" />
-
-  <extend-project name="chromiumos/platform/experimental" origRev="refs/heads/release-R114-15437.B" path="src/platform/experimental" revision="2927fce20adf74b0c9a32a61e3edff894221f283" />
 
   <extend-project name="chromiumos/platform/factory" origRev="refs/heads/release-R114-15437.B" path="src/platform/factory" revision="e479f6f0ca6c73b762dc3cd0ecdf7836562bd7b0" />
   <extend-project name="chromiumos/platform/factory_installer" origRev="refs/heads/release-R114-15437.B" path="src/platform/factory_installer" revision="bb92e4b17d31f11368418eb8e9edbf696fd993be" />
@@ -99,8 +95,6 @@
   <extend-project name="chromiumos/platform/libchrome" origRev="refs/heads/release-R114-15437.B" path="src/platform/libchrome" revision="dab15f4760457a318dcc086391f49bc2955e5ff4" />
 
   <extend-project name="chromiumos/platform/libevdev" origRev="refs/heads/release-R114-15437.B" path="src/platform/libevdev" revision="c0b4726937bec74b465396f700614e75cd0c8a9a" />
-
-  <extend-project name="chromiumos/platform/libva-fake-driver" origRev="refs/heads/release-R114-15437.B" path="src/platform/libva-fake-driver" revision="7754dd6e00355bb0d7bb5f597b482b6d5ff5cab5" />
 
   <extend-project name="chromiumos/platform/lithium" origRev="refs/heads/release-R114-15437.B" path="src/platform/lithium" revision="6c407bb2bb86d66da5677d7196a3390eeb849cc4" />
 
@@ -272,10 +266,6 @@
 
   <extend-project name="chromiumos/third_party/libqrtr-glib" origRev="refs/heads/release-R114-15437.B" path="src/third_party/libqrtr-glib" revision="129e97b215c767740db2f054745eae499c78185b" />
 
-  <extend-project name="chromiumos/third_party/libsigrok" origRev="refs/heads/release-R114-15437.B" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" />
-
-  <extend-project name="chromiumos/third_party/libsigrokdecode" origRev="refs/heads/release-R114-15437.B" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" />
-
   <extend-project name="chromiumos/third_party/libtextclassifier" origRev="refs/heads/release-R114-15437.B" path="src/third_party/libtextclassifier" revision="01652c17e116baa8ebd7083e8cbc3dede513ac9e" />
 
   <extend-project name="chromiumos/third_party/libv4lplugins" origRev="refs/heads/release-R114-15437.B" path="src/third_party/libv4lplugins" revision="17e182085b6871f8ab84c3e064ce6e37e3dcbfd4" />
@@ -326,8 +316,6 @@
 
   <extend-project name="chromiumos/third_party/portage_tool" origRev="refs/heads/release-R114-15437.B" path="src/third_party/portage_tool" revision="4e4df3bc829b85676a7a2f28838ecc3fc4e31638" />
 
-  <extend-project name="chromiumos/third_party/qemu" origRev="refs/heads/release-R114-15437.B" path="src/third_party/qemu" revision="fdd76fecdde1ad444ff4deb7f1c4f7e4a1ef97d6" />
-
   <extend-project name="chromiumos/third_party/rootdev" origRev="refs/heads/release-R114-15437.B" path="src/third_party/rootdev" revision="7082cbf0ae51eb1044fe1a0749245e97e4fcfc89" />
 
   <extend-project name="chromiumos/third_party/rust-vmm/vhost" origRev="refs/heads/release-R114-15437.B" path="src/third_party/rust-vmm/vhost" revision="7c95b4a2c1e378f7328d8bc0510bbb6998f54581" />
@@ -337,8 +325,6 @@
   <extend-project name="chromiumos/third_party/seabios" origRev="refs/heads/release-R114-15437.B" path="src/third_party/seabios" revision="27b56c6e94fe37e9308392fefd25ba641d8be496" />
 
   <extend-project name="chromiumos/third_party/shellcheck" origRev="refs/heads/release-R114-15437.B" path="src/third_party/shellcheck" revision="3e1b3e32c31461a6185f96fb68ef9ec3962fb9cb" />
-
-  <extend-project name="chromiumos/third_party/libsigrok-cli" origRev="refs/heads/release-R114-15437.B" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" />
 
   <extend-project name="chromiumos/third_party/sis-updater" origRev="refs/heads/release-R114-15437.B" path="src/third_party/sis-updater" revision="0e41acf19950b8c60d1e0c46ff7b64a24c51dea1" />
 
@@ -387,10 +373,6 @@
   <extend-project name="chromiumos/third_party/zephyr/nanopb" origRev="refs/heads/release-R114-15437.B" path="src/third_party/zephyr/nanopb" revision="0cdcea9140d23ce6f739850f93dcf3a2f4f6e4d4" />
 
   <extend-project name="chromium/tools/depot_tools" origRev="3f3e2f789e27d41d3c20a555fd60a39ebd631e15" path="src/chromium/depot_tools" revision="3f3e2f789e27d41d3c20a555fd60a39ebd631e15" />
-
-  <extend-project name="chromium/src/buildtools" origRev="24fa2da896a027e7202bb8886177cccfe885b67d" path="src/chromium/src/buildtools" revision="24fa2da896a027e7202bb8886177cccfe885b67d" />
-
-  <extend-project name="chromium/llvm-project/cfe/tools/clang-format" origRev="bb994c6f067340c1135eb43eed84f4b33cfa7397" path="src/chromium/src/buildtools/clang_format/script" revision="bb994c6f067340c1135eb43eed84f4b33cfa7397" />
 
   <extend-project name="chromium/src/components/policy" origRev="617622cf3cf3229dc8d2ddfad3d3d2134b47c7aa" path="src/chromium/src/components/policy" revision="617622cf3cf3229dc8d2ddfad3d3d2134b47c7aa" />
   
@@ -453,8 +435,6 @@
   <extend-project name="chromiumos/infra/lucifer" origRev="refs/heads/release-R114-15437.B" path="infra/lucifer" revision="12e9e6bde527c0bf97ff68c1d5f70385e15d1e58" />
 
   <extend-project name="chromiumos/infra/proto" origRev="refs/heads/main" path="infra/proto" revision="102a4733de9a11c4bcb6fa215b2cf3efc81cb458" />
-
-  <extend-project name="chromiumos/infra/test_analyzer" origRev="refs/heads/release-R114-15437.B" path="infra/test_analyzer" revision="14119cc21c146544791fe387f64a4b809c4ea789" />
 
   <extend-project name="chromiumos/infra_virtualenv" origRev="refs/heads/release-R114-15437.B" path="infra_virtualenv" revision="39254f97db8d6ab8b3fdef3d2f7038ac42978b78" />
   
